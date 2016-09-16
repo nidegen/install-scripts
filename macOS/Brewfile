@@ -1,0 +1,32 @@
+install imagemagick
+install git
+install bash-completion
+install cmake
+install clang-format
+install go
+
+cask install google-chrome
+cask install spotify
+cask install github
+cask install google-drive
+cask install meshlab
+cask install inkscape
+cask install paintbrush
+cask install dropbox
+cask install vlc
+cask install xquartz
+cask install flux
+cask install filezilla
+cask install blender
+cask install java
+cask install mactex
+
+
+
+## Install in App store
+
+Twitter
+Telegram
+OneDrive
+Evernote
+WOT
