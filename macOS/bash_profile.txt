@@ -1,5 +1,5 @@
-if [ -f /etc/bash_completion ]; then
-    . /etc/bash_completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+    . $(brew --prefix)/etc/bash_completion
 fi
 export GOPATH=$HOME/Developer/golang
 export PATH=$PATH:$GOPATH/bin

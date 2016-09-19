@@ -6,30 +6,31 @@ cp ./bash_profile.txt $HOME/.bash_profile
 
 
 # Homebrew Installs
-brew install imagemagick
-brew install git
 brew install bash-completion
-brew install cmake
 brew install clang-format
+brew install cmake
+brew install git
 brew install go
+brew install imagemagick
 
-brew cask install google-chrome
-brew cask install spotify
-brew cask install github
-brew cask install google-drive
-brew cask install meshlab
-brew cask install inkscape
-brew cask install paintbrush
+brew cask install blender
 brew cask install dropbox
+brew cask install filezilla
+brew cask install flux
+brew cask install github-desktop
+brew cask install google-chrome
+brew cask install google-drive
+brew cask install inkscape
+brew cask install java
+# brew cask install mactex
+brew cask install meshlab
+brew cask install paintbrush
+brew cask install spotify
 brew cask install vlc
 brew cask install xquartz
-brew cask install flux
-brew cask install filezilla
-brew cask install blender
-brew cask install java
-brew cask install mactex
+
 brew cask install atom
-apm install atom-sync
+apm install sync-settings
 
 
 ## Install in App store
