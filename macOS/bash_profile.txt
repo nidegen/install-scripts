@@ -1,9 +1,6 @@
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
     . $(brew --prefix)/etc/bash_completion
 fi
-export GOPATH=$HOME/Developer/golang
-export PATH=$PATH:$GOPATH/bin
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 parse_git_branch() {
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
